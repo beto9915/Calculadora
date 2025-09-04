@@ -1,7 +1,7 @@
 import tkinter as tk
 ventana_principal=tk.Tk()
 ventana_principal.title("Calculadora basica, pero muy basica")
-ventana_principal.geometry("1080x720")
+ventana_principal.geometry("1980x720")
 etiqueta1=tk.Label(ventana_principal, text= "Ingrese numero 1: ")
 etiqueta1.pack(pady=5)
 entrada1=tk.Entry(ventana_principal)
